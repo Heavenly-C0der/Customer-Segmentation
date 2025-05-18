@@ -1,4 +1,4 @@
-# 🧠 Customer Segmentation using K-Means & PCA
+# 🧠 Customer Segmentation using K-Means & TSNE
 
 This project focuses on unsupervised learning to identify distinct customer segments based on purchasing behavior and demographic data. Using clustering techniques, it uncovers hidden patterns that can help tailor marketing strategies and improve customer engagement.
 
@@ -7,21 +7,21 @@ This project focuses on unsupervised learning to identify distinct customer segm
 Customer segmentation is a key strategy in marketing and CRM. In this project:
 
 - We apply **K-Means Clustering** to segment customers into meaningful groups.
-- **Principal Component Analysis (PCA)** is used for dimensionality reduction and better visualization.
+- **T-distributed Stochastic Neighbor Embedding(TSNE)** is used for dimensionality reduction and better visualization.
 - The clusters are analyzed and visualized to interpret customer behavior.
 
 ## 📊 Key Features
 
 - 📦 **Preprocessing & Scaling**: Cleans and scales customer data for optimal clustering.
 - 🔍 **K-Means Clustering**: Groups customers based on similarity in behavior.
-- 📉 **PCA Visualization**: Reduces high-dimensional data to 2D for easy interpretation.
+- 📉 **TNSE Visualization**: Reduces high-dimensional data to 2D for easy interpretation.
 - 📈 **Elbow Method**: Determines the optimal number of clusters.
 
 ## 🛠️ Tech Stack
 
 - Python (Jupyter Notebook)
 - pandas, numpy
-- scikit-learn (KMeans, PCA)
+- scikit-learn (KMeans, TSNE)
 - matplotlib, seaborn
 
 ## 📁 Files
@@ -35,10 +35,6 @@ Customer segmentation is a key strategy in marketing and CRM. In this project:
 - Customer loyalty program targeting
 - Behavioral analysis and retention strategies
 
-## 📷 Sample Output
-
-*Cluster visualization using PCA:*
-![PCA Cluster Example](https://user-images.githubusercontent.com/your-sample-image.png) <!-- Replace with actual image or remove if not available -->
 
 ## ✅ Results
 
@@ -50,6 +46,6 @@ The final output includes:
 ## 📬 Contact
 
 For feedback or collaboration, feel free to reach out via GitHub Issues or email.
-
+Email: keya74mobile@gmail.com
 ---
 
